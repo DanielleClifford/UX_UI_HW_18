@@ -129,6 +129,7 @@ div h1 {
         font-size: 4vw;
         letter-spacing: 0.4vw;
         line-height: 4.5vw;
+        
     }
 div h2 {
         color: white;
@@ -259,4 +260,18 @@ footer p {
     letter-spacing: 0.1vw;
     }
 
+/* Changing things for screen size */
+@media only screen and (max-width: 600px) {
+    #skills{
+        flex-direction: column;
+        align-items: start;}
+    .skills h1 {
+        text-align: left;
+        padding-left: 3%;}
+    .more{margin-left: 3%;}
+    .aboutme2 { 
+        display: flex;
+        flex-direction: column;
+    }
+}
 
